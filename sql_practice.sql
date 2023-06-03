@@ -1,3 +1,7 @@
+-- some take way from this blog: get more familar with window function, learn how to use lead(),lag() functions and practice subqueries
+-- 练习了一些窗口功能，joins以及子查询
+
+
 CREATE TABLE Users
 (
 	user_id int primary key,
@@ -78,6 +82,7 @@ insert into employee values(124, 'Dheeraj', 'IT', 11000);
 
 ## use window function, this time don't need to partition by, simply row the number
 ## because we look at the whole table, put it into a subquery and use select query to locate it
+
 SELECT *
 FROM 
 (
@@ -89,6 +94,7 @@ WHERE x = 2;
 -- Write a SQL query to display only the details of employees who either earn the highest salary
 -- or the lowest salary in each department from the employee table.
 ## solution 1 my way
+
 SELECT *
 FROM 
 (
