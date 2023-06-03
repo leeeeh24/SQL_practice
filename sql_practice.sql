@@ -1,5 +1,6 @@
--- some take way from this blog: get more familar with window function, learn how to use lead(),lag() functions and practice subqueries
--- 练习了一些窗口功能，joins以及子查询
+-- some take way from this blog: get more familar with window function, learn how to use lead(),lag() functions and practice subqueries and temp tables
+-- work through the logic for solving the "n consecutive records" under different conditions
+-- 练习了一些窗口功能，joins以及子查询, temp table以及如何获取“连续数”
 
 
 CREATE TABLE Users
